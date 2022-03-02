@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: linear-gradient(to bottom, #AEEBFF, #93C7D9, #79A4B3);
+  background-image: linear-gradient(to bottom, hsl(194, 47%, 91%), #e1f1f70a, #d6d6d675);
   background-attachment: fixed; 
   font-size: 20px;
 }
@@ -27,4 +27,20 @@ h1 {
 
 p {
   text-align: justify;
+}
+
+div {
+  display: inline-flex;
+  justify-items: center;
+}
+
+.inicio {
+  background-color: #4D6A73;
+  border: 3px solid black;
+}
+
+.tita:hover {
+  background-color: #4D6A73;
+  padding: 3px;
+  transition: 0.8s;
 }
